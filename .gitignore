@@ -219,3 +219,12 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# vim temp
+*.tex~
+makefile~
+*.txt~
+*.bib~
+
+# MacOS
+.DS_Store
