@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{pgfplots}
 \usepackage{tikz}
+\usepackage{gensymb}
 
 \usepgfplotslibrary{dateplot}
 
@@ -111,6 +112,19 @@
 \runningtitle{Example paper}
 
 \begin{abstract}
+This work analyzed the physical characteristics of sunspots the solar cycle 23, detected using computer vision techniques.
+Images in visible light and
+magnetograms of the MDI instrument (Michelson Doppler Imager) of the space telescope
+SOHO (Solar and Heliospheric Observatory) were used in the process of detecting
+sunspots and the extraction of their characteristics. The flow of
+solar irradiance, number of spots, number of sunspot groups, area, temperature, brightness and
+the average magnetic field of sunspots were also studied. Based on the sunspot data, the behavior of these characteristics and relationships between them were verified along the
+periods of solar minimum and maximum.
+
+We detected and analyzed 32,317 sunspots, with longitude between -40\degree and 40\degree, throughout the entire solar cycle.
+The daily Wolf number series was compared with data from the SIDC research center, and showed a 95\% correlation.
+In addition, nonlinear correlations were found regarding area and extreme magnetic field, as well as regarding temperature and area, and finally regarding temperature and magnetic field.
+It was also found that these correlations presented small variations over the time of the solar cycle 23, and that larger, colder sunspots and with stronger magnetic fields occur more frequently during periods of maximum activity.
 \end{abstract}
 \keywords{Sunspots, Cycle 23, Solar activity}
 \end{opening}
@@ -301,7 +315,7 @@ so the data of extreme magnetic field with intensity above 2000 Gauss can be und
 \subsection{Cycle 23} %%%%%%%%%%%%%%
   \label{S-cycle23}
 This work processed 6,870 images of the SOHO observatory, which represent a daily sample of images of the Sun for the period corresponding to the solar cycle 23.
-A total of 32,317 sunspots with a longitude between -40 and 40 were detected and analyzed.
+A total of 32,317 sunspots with a longitude between -40\degree and 40\degree were detected and analyzed.
 A plot of the number of the Wolf number obtained from these spots is shown in Figure~\ref{gr:ciclo23}, where the 11 year sola activity cycle is clearely seen.
 
 \begin{figure} [!htbp]
@@ -499,7 +513,7 @@ The algorithm used in this work was inspired by the algorithm developed by \cite
 A program was developed that implements the algorithms and the methodology is described in this work. 
 A total of 6,870 images of the complete solar disk were processed from July 1997 to January 2008, 
 which comprises the solar cycle 23,
-and detected 32,317 solar spots, with a longitude between -40 and 40.
+and detected 32,317 solar spots, with a longitude between -40\degree and 40\degree.
 
 Based on the physical characteristics extracted from the detected sunspots,
 a quadratic correlation was verified between the temperature and the sunspots magnetic field. 
